@@ -1,6 +1,6 @@
 data "aws_eks_node_group" "eks-node-group" {
   cluster_name = "hr-dev-Altschool-Project"
-  node_group_name = "hr-dev-eks-ng-public"
+  node_group_name = "hr-dev-eks-ng-public2"
 }
 
 resource "time_sleep" "wait_for_kubernetes" {
